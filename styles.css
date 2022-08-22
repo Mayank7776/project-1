@@ -1,0 +1,91 @@
+.topcontainer{
+    background-color:#e4b61f69;
+    height: 705px;
+    text-align: center;
+    /* border: solid 10px;
+    padding: 20px; */
+}
+/* .middlecontainer{
+}
+.bottomcontainer{
+} */
+body{
+    margin: 0;
+    text-align: center;
+}
+/* .logo{
+    height: 14%;
+    position: absolute;
+    bottom: 486px;
+    right: 1100px;
+    border: 3px solid black;
+} */
+
+.cloud1{
+    height: 20%;
+    position: absolute;
+    bottom: 550x;
+    right: 1100px;
+}
+.cloud2{
+    height: 20%;
+    position: absolute;
+    bottom: 550px;
+    right: 240px;
+}
+.cloud3{
+    height: 20%;
+    position: absolute;
+    bottom: 250px;
+    right: 1300px;
+}
+.cloud4{
+    height: 20%;
+    position: absolute;
+    bottom: 350px;
+    right: 0px;
+}
+
+.text{
+        position: absolute;
+        height: 18%;
+        bottom: 463px;
+        right: 558px;
+}
+.background{
+    height: 71%;
+    padding-top: 13.5%;
+}
+p1{
+    font-family:cursive ;
+ font-size: 1.7em;
+position: absolute;
+bottom: 430px;
+left: 629px;
+color:#db9a00 ;
+}
+p2{
+    font-size: large;
+}
+/* .profile{    
+
+}
+.skills{
+}
+.contact-me{
+
+} */
+.btn{
+    font-size: 15px;
+    border-radius: 4px;
+    margin: 0px 10px;
+    color: black;
+    background-color: #e5a434;
+    padding: 5px 6px;
+}
+h2{
+    color:#db9a00 ;
+}
+h3{
+    color:#db9a00 ;
+}

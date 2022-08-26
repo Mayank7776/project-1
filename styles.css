@@ -6,12 +6,15 @@
     padding: 20px; */
 }
 /* .middlecontainer{
-}
-.bottomcontainer{
 } */
+.bottom-container{
+    background-color:#e4b61f69 ;
+    padding: 50px 0 20px;
+}
 body{
     margin: 0;
     text-align: center;
+ color: #451;
 }
 /* .logo{
     height: 14%;
@@ -67,25 +70,86 @@ color:#db9a00 ;
 p2{
     font-size: large;
 }
-/* .profile{    
-
-}
-.skills{
-}
-.contact-me{
-
-} */
-.btn{
-    font-size: 15px;
-    border-radius: 4px;
-    margin: 0px 10px;
-    color: black;
-    background-color: #e5a434;
-    padding: 5px 6px;
-}
 h2{
     color:#db9a00 ;
+    font-family:'montserrat' , sans-serif ;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
-h3{
+h5{
     color:#db9a00 ;
+    font-family:'montserrat' , sans-serif ;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
+hr{
+  border: dotted #ccb679 6px;
+  border-bottom:none ;
+  width: 8%;
+  margin: 100px auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+.middle-container{
+  margin: 100px 0;
+}
+.intro{
+    width: 30%;
+    margin:auto ;
+}
+.skill-img{
+    float: left;
+    width: 23%;
+    height: 110px;
+    margin-top: 35px;
+}
+.layer-img{
+    float: right;
+    width: 23%;
+    height: 110px;
+}
+p{
+    line-height: 2;
+}
+.btn {
+    background: #f2c203;
+    background-image: -webkit-linear-gradient(top, #f2c203, #edc385);
+    background-image: -moz-linear-gradient(top, #f2c203, #edc385);
+    background-image: -ms-linear-gradient(top, #f2c203, #edc385);
+    background-image: -o-linear-gradient(top, #f2c203, #edc385);
+    background-image: linear-gradient(to bottom, #f2c203, #edc385);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'montserrat' , sans-serif ;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #bf9407;
+    background-image: -webkit-linear-gradient(top, #bf9407, #ffb300);
+    background-image: -moz-linear-gradient(top, #bf9407, #ffb300);
+    background-image: -ms-linear-gradient(top, #bf9407, #ffb300);
+    background-image: -o-linear-gradient(top, #bf9407, #ffb300);
+    background-image: linear-gradient(to bottom, #bf9407, #ffb300);
+    text-decoration: none;
+  }
+  a{
+    margin: 10px 20px;
+    color:#78000069;
+  }
+  .copyright{
+    color: #c4cccc;
+    font-size: 1rem;
+  }
+  a:hover{
+    color: #eaf6f6;
+  }
